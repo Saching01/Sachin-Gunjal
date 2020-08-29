@@ -1,0 +1,110 @@
+Question 1
+What does the following Python Program print out?
+str1 = "Hello"
+str2 = 'there'
+bob = str1 + str2
+print(bob)
+1.Hello
+2.Hellothere
+3.0
+4.Hello
+there
+
+Answer: Hellothere
+
+
+Question 2
+What does the following Python program print out?
+x = '40'
+y = int(x) + 2
+print (y)
+1.42
+2.x2
+3.402
+4.int402
+
+Answer: 42
+
+Question 3
+How would you use the index operator [] to print out the letter q from the following string?
+x = 'From marquard@uct.ac.za'
+1.print x[9]
+2.print x[q]
+3.print x[-1]
+4.print x[7]
+5.print x[8]
+
+
+Answer: print x[8]
+
+Question 4
+How would you use string slicing [:] to print out 'uct' from the following string?
+x = 'From marquard@uct.ac.za'
+1.print x[14:3]
+2.print x[14+17]
+3.print x[15:18]
+4 print x[14:17]
+5.print x[14/17]
+6.print x[15:3]
+
+Answer: print x[14:17]
+
+Question 5
+What is the iteration variable in the following Python code?
+for letter in 'banana' :
+        print (letter)
+1.for
+2.letter
+3.print
+4.'banana'
+5.in
+
+Answer: letter
+
+Question 6
+What does the following Python code print out?
+print len('banana')*7
+1.-1
+2.banana banana banana banana banana banana banana
+3.0
+4.42
+
+Answer: 42
+
+Question 7
+How would you print out the following variable in all upper case in Python?
+greet = 'Hello Bob'
+1.puts greet.ucase;
+2.console.log(greet.toUpperCase());
+3.print uc($greet);
+4.print greet.upper()
+
+Answer: print greet.upper()
+
+Question 8
+Which of the following is not a valid string method in Python?
+1.join()
+2.upper()
+3.twist()
+4.lstrip()
+
+Answer: twist()
+
+Question 9
+What will the following Python code print out?
+data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+pos = data.find('.')
+print data[pos:pos+3]
+
+.ma
+
+Answer: .ma
+
+Question 10
+Which of the following string methods removes whitespace from both the beginning and end of a string?
+1.strip()
+2.wsrem()
+3.strtrunc()
+4.split()
+
+Answer: strip()
